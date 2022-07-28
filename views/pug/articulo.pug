@@ -1,0 +1,8 @@
+extends layouts/main.pug
+block div_articulo
+    each val in productos
+        div(id="A"+val.id)
+            h1=val.title
+            p=val.price
+            img(src=val.thumbnail)
+            

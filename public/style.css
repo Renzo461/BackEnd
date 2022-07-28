@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: black;
+    display: flex;
+    padding: 1rem;
+}
+header ul {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+header ul li{
+    margin: 0 4rem;    
+}
+header ul li a{   
+    text-transform: capitalize; 
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+.form form{    
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+}
+.form form div{       
+    width: 500px;
+    margin-bottom: 1rem;     
+}
+.form form div input{
+    width: 100%;
+    height: 1.5rem;
+}
+.mContenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.articulo{
+    background-color: rgb(209, 209, 209);
+    margin: 1rem 5px;    
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}

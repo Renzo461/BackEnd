@@ -1,0 +1,11 @@
+<% prod.forEach(function(p) { %>
+    <div id="A<%= p.id %>">
+        <h1>
+            <%= p.title %>
+        </h1>
+        <p>
+            <%= p.price %>
+        </p>
+        <img src="<%= p.thumbnail %>" alt="<%= p.title %>">
+    </div>        
+<% }); %>        

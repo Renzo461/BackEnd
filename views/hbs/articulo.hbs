@@ -1,0 +1,11 @@
+{{#each prod}}
+<div id=A{{this.id}} class="articulo">
+    <h1>
+        {{this.title}}
+    </h1>
+    <p>
+        {{this.price}}
+    </p>
+    <img src={{this.thumbnail}} alt={{this.title}}>
+</div>
+{{/each}}
